@@ -1,0 +1,159 @@
+/* Reset document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+    background: url(images/pexels-monicore-1391505.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+div, section, header, span, ul, li, a {
+    box-sizing: border-box;
+}
+
+/* COnfigurações */
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2.5rem;
+    align-items: center;
+    background-color: #218201;
+    position:fixed;
+    z-index: 999;
+}
+
+#logo {
+    max-height: 5rem;
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin:1rem;
+}
+
+#menu li a {
+    color: #fff;
+    padding:0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    text-shadow: 3px 3px 5px black;
+}
+
+#menu li a:hover {
+    color: #218201;
+    background-color: #fff;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    padding: 6rem 6rem;
+}
+
+#inicio {
+    background-color: #218201;
+    padding: 0px 0px;
+}
+#sobrenos {
+    background-color: transparent;
+    color: #333;
+}
+
+.sobre_container {
+    background-color:  rgba(255,255,255,0.4);
+    padding: 2em;
+    border-radius: 5px;
+}
+.sobre_container p{
+    font-size: 1.1em;
+    line-height: 1.3em;
+    margin-bottom: 1em;
+}
+
+#produtos {
+    background-color: #65b200;
+    color:#fff;
+}
+#receitas {
+    background-color: #6d4c3d;
+    color:#fff;
+    height: 100%;
+}
+#contactos {
+ 
+    
+    background-color: #262322;
+    color: #fff;
+    
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Receitas */
+#cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;    
+    flex-wrap: wrap;
+}
+
+.card_receita {
+    background-color: #218201;
+    color: #fff;
+    margin: 1.1em 1em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; 
+    width: 30%;
+    min-width: 240px;
+    display: inline-block;
+    
+}
+
+.card_receita img {
+    border-radius: 5px 5px 0px 0px; 
+    object-fit:fill;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
+  /* On mouse-over, add a deeper shadow */
+
+.card_receita:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    scale: 1.02;
+    rotate: 2deg;
+}
+  
+  /* Add some padding inside the card container */
+
+.card_container {
+    padding: 1em 1.2em;
+}
+
+.card_container h4 {
+
+    
+    padding: 0rem 0rem .5rem;
+    
+    
+}
