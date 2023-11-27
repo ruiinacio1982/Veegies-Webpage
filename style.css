@@ -73,7 +73,7 @@ section {
 }
 
 #inicio img { 
-    object-fit:cover;
+    object-fit:fill;
     width: 100%;
     aspect-ratio: 16/9;
 }
