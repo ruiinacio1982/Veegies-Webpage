@@ -66,9 +66,18 @@ section {
 }
 
 #inicio {
+    
     background-color: #218201;
-    padding: 0px 0px;
+    padding: 6rem 0 0 0;
+    height: auto;
 }
+
+#inicio img { 
+    object-fit:cover;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
 #sobrenos {
     background-color: transparent;
     color: #333;
